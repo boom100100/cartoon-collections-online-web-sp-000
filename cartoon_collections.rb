@@ -11,6 +11,7 @@ def summon_captain_planet(arrayOfCalls)# code an argument here
   arrayOfCalls.each {|call|
     newArray << call[0].upcase + call[1:]
   }
+  return newArray
 end
 
 def long_planeteer_calls# code an argument here
