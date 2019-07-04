@@ -9,7 +9,7 @@ def summon_captain_planet(arrayOfCalls)# code an argument here
   # Your code here
   newArray = []
   arrayOfCalls.each {|call|
-    newArray << call[0].upcase + call[1:] + "!"
+    newArray << call[0].upcase + call[1:call.length-1] + "!"
   }
   return newArray
 end
